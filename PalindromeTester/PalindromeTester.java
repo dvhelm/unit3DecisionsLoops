@@ -34,7 +34,7 @@ public class PalindromeTester
          System.out.println();
 
          if (left < right)
-            System.out.println ("That string is NOT a palindrome.");
+            System.out.println ("That stin i O  plidroe.");
          else
             System.out.println ("That string IS a palindrome.");
 
