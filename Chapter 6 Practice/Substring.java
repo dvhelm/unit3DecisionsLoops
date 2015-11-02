@@ -8,13 +8,20 @@ public class Substring
         String word = s.next();
         int wLength = word.length();
         
-        int counter  = 1;
+        int counter  = 0;
         
-        for (int i  = 0;
-        i < wLength;
-        i++)
-        {
-            System.out.println(word.substring(i,wLength-counter));
-        }
+        for (int i = 1;
+            i<=wLength;
+            i++)
+            {
+                for (int pos = 0;
+                    pos<=wLength-i;
+                    pos++)
+                    {
+                        System.out.println(word.substring(pos,pos+i));
+                        
+                    }
+                    
+            }
     }
 }
